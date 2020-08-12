@@ -99,6 +99,6 @@ public class VendorService implements IVendorService {
 	@Override
 	public String deleteVendor(int id) {
 		
-		return "use the hibernate API";
+		return "use the hibernate API's ";
 	}
 }
