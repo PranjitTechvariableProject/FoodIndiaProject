@@ -98,7 +98,7 @@ public class VendorService implements IVendorService {
 
 	@Override
 	public String deleteVendor(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return "use the hibernate API";
 	}
 }
