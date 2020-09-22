@@ -21,7 +21,8 @@ public class VendorHService implements IVendorService {
 	public String createVendor(VendorVO vendor) {
 		
 		vendorDao.createVendor(vendor);
-		return "saved successfully";
+		String message="saved successfully";
+		return message;
 	}
 
 	public List<VendorVO> getVendorDetails() throws SQLException, ClassNotFoundException
